@@ -1,8 +1,12 @@
+This project is intended to demonstrate enterprise-style Java desktop development, focusing on business rules, maintainability, and testability rather than UI aesthetics.
+
+
 📘 MiniEMR Desktop (Java Swing)
 
 A desktop-based Electronic Medical Record (EMR) system built with Java, simulating core workflows commonly found in real-world healthcare software such as Accuro EMR.
 
 This project focuses on appointment scheduling, business rule enforcement, and clean layered architecture, rather than simple CRUD operations.
+
 
 ✨ Features
 🧑‍⚕️ Patient Management
@@ -14,6 +18,7 @@ Health Card Number uniqueness validation
 JDBC-based persistence with SQL Server
 
 Desktop UI built with Java Swing
+
 
 📅 Appointment Scheduling
 
@@ -27,6 +32,7 @@ Appointments displayed with patient and provider names (JOIN-based queries)
 
 Supports multiple appointments per day
 
+
 🧠 Business Logic
 
 Clear separation of concerns:
@@ -38,6 +44,7 @@ Service layer (business rules & validation)
 DAO layer (JDBC + SQL)
 
 Business exceptions translated into user-friendly messages
+
 
 🧪 Testing
 
@@ -52,6 +59,7 @@ Appointment conflict detection
 Input validation
 
 SQL exception translation logic
+
 
 🖥️ Screenshots
 Patients Management
@@ -68,6 +76,7 @@ Appointment table showing patient & provider names
 
 Conflict validation popup when time slot is unavailable
 
+
 🏗️ Architecture Overview
 UI (Swing)
 ├── Panels / Dialogs
@@ -81,6 +90,7 @@ DAO Layer
 ├── SQL Server
 │
 Database (Docker)
+
 
 🛠️ Tech Stack
 
@@ -99,6 +109,7 @@ Maven
 JUnit 5
 
 Mockito
+
 
 🚀 Getting Started
 Prerequisites
